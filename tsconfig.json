@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+	"baseUrl": "./",
+	"paths": {
+		"~/*" : ["./src/*"]
+	},
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "jsx": "react-native",
+    "lib": ["es6"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext"
+  },
+  "exclude": ["node_modules"]
+}
